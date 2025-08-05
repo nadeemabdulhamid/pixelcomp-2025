@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berry Computer Science Pixel Art Competition - 2024 - Code for Processing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="--bs-body-font-size: 1.25rem">
+    <div class="container-fluid">
+        <a href="index.html" class="text-decoration-none"><h1 class="p-3 text-info bg-light"><img src="media/berry-crestmark.png" height="48">  || Computer Science Pixel Art Competition <span class="badge bg-info rounded-pill fs-6">2024</span> ||</h1></a>
+        <div class="row mt-4">
+            <div class="col-sm-2"></div>
+            <div class="container-fluid col-sm-8 p-3">
+
+                <h2 class="text-decoration-underline">Code for Processing</h2>
+
+                <p>To use Processing, for a static image, use <code>noLoop()</code> in your <code>setup()</code> method and then
+                    code your image in the <code>draw()</code> method. At the end of your <code>draw</code>, use <a href="https://processing.org/reference/saveFrame_.html" target="_blank"><code>saveFrame</code></a> to save the display window image to a file.</p>
+
+                <p>For an animation, do not put <code>noLoop()</code> in your <code>setup()</code>. Instead, code your animation into the <code>draw()</code> function and keep track of the frame count somehow. When all the frames have been displayed, <em>then</em> call <code>noLoop()</code>. To create an animated GIF, follow one of the approaches <a href="https://sighack.com/post/make-animated-gifs-in-processing" target="_blank">described here</a>. The examples below use the second suggested approach -- see the comments in the sketch code.</p>
+                    
+                <h3 class="mt-5">Examples</h3>
+
+                <p>(Right-click and "Save as..." to download to your computer; then open and run.)</p>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item flex-fill text-center"><a href="code/stripes.pde">stripes.pde</a><hr><img src="media/example1p.png"></li>
+                  <li class="list-group-item flex-fill text-center"><a href="code/red_fill.pde">red-fill.pde</a><hr><img src="media/example2p.gif"></li>
+                  <li class="list-group-item flex-fill text-center"><a href="code/color_fill.pde">color_fill.pde</a><hr><img src="media/example3p.gif"></li>
+                </ul>
+
+            </div> <!-- container -->
+            <div class="col-sm-2"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12 p-5 fw-lighter">
+                Sponsored by the Berry College <strong>CSC 101</strong> course. Contact <a href="mailto:nhamid@berry.edu">Nadeem Abdul Hamid</a>.
+            </div>
+        </div>
+      </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

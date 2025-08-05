@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berry Computer Science Pixel Art Competition - 2024 - Code for Racket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="--bs-body-font-size: 1.25rem">
+    <div class="container-fluid">
+        <a href="index.html" class="text-decoration-none"><h1 class="p-3 text-info bg-light"><img src="media/berry-crestmark.png" height="48">  || Computer Science Pixel Art Competition <span class="badge bg-info rounded-pill fs-6">2024</span> ||</h1></a>
+        <div class="row mt-4">
+            <div class="col-sm-2"></div>
+            <div class="container-fluid col-sm-8 p-3">
+
+                <h2 class="text-decoration-underline">Code for Racket</h2>
+
+                <p>Using the student languages (BSL/ISL) of DrRacket, you can use the <code>2htdp/image</code> library to create images of size 16x16 or 32x32. For additional functionality, download the <a href="code/save-gif.rkt">save-gif.rkt</a> file, save it to the same directory (folder) as your program code, and add the following expression to the top of your file:</p>
+
+                <pre>
+(require "save-gif.rkt")</pre>
+                
+                <h3 class="mt-5">Saving PNG Images</h3>
+
+                <p>To save a static (non-animated) PNG image, you can use the <a href="https://docs.racket-lang.org/teachpack/2htdpimage.html#%28def._%28%28lib._2htdp%2Fimage..rkt%29._save-image%29%29"><code>save-image</code></a> function that comes with the <code>2htdp/image</code> library.</p>
+
+                <h3 class="mt-5">Saving GIF Images</h3>
+
+                <p>To save either a static or animated GIF, use the <strong><code>save-gif</code></strong> function that is provied by the <a href="code/save-gif.rkt">save-gif.rkt</a> file. It works like <code>save-image</code> for static GIFs, for example:</p>
+
+                <pre>
+(save-gif IMG "test.gif")</pre>
+
+                <p>To create an animation, provide a list of images instead of a single one. You may also specify a delay (in 1/100s of a second) as well:</p>
+
+                <pre>
+(save-gif (list R S T) "testA.gif")
+(save-gif (list R S T) "testB.gif" 20) ; 5 frames per second</pre>
+
+                <h3 class="mt-5">Scaling Bitmap Images</h3>
+
+                <p>To scale a bitmap image properly for submission for this contest, use the <code>scale-bitmap</code> function, e.g.:</p>
+
+                <pre>(scale-bitmap 10 IMG)  ; scale IMG 10 times larger</pre>
+                
+                <h3 class="mt-5">Examples</h3>
+
+                <p>(Right-click and "Save as..." to download to your computer; then open and run.)</p>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item flex-fill text-center"><a href="code/gif-stripes.rkt">gif-stripes.rkt</a><hr><img src="media/example1.png"></li>
+                  <li class="list-group-item flex-fill text-center"><a href="code/gif-red-fill.rkt">gif-red-fill.rkt</a><hr><img src="media/example2.gif"></li>
+                  <li class="list-group-item flex-fill text-center"><a href="code/gif-color-fill.rkt">gif-color-fill.rkt</a><hr><img src="media/example3.gif"></li>
+                  <li class="list-group-item flex-fill text-center"><a href="code/gif-run-wait.rkt">gif-run-wait.rkt</a><hr><img src="media/example4.gif"></li>
+                </ul>
+
+            </div> <!-- container -->
+            <div class="col-sm-2"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12 p-5 fw-lighter">
+                Sponsored by the Berry College <strong>CSC 101</strong> course. Contact <a href="mailto:nhamid@berry.edu">Nadeem Abdul Hamid</a>.
+            </div>
+        </div>
+      </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
