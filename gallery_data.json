@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "category": 32,
+        "title": "Mountain Skies",
+        "artist": "Gabby Ganues",
+        "description": "This art was inspired by a mountain landscape picture taken by Michael Gabriel, I really liked the sky in this picture, and I wanted to see what I could do with it.",
+        "tools": "I used PixieEditor to create my pixel art!",
+        "pic": "pics/c32_160_1.png"
+    },
+    {
+        "id": 2,
+        "category": 32,
+        "title": "The Voyage of E\u00e4rendil the Mariner",
+        "artist": "Addison Loomis",
+        "description": "E\u00e4rendil was a mariner\nthat tarried in Arvernien;\nhe built a boat of timber felled\nin Nimbrethil to journey in;\nher sails he wove of silver fair,\nof silver were her lanterns made,\nher prow was fashioned like a swan,\nand light upon her banners laid.",
+        "tools": "Gimp",
+        "pic": "pics/c32_160_2.png"
+    },
+    {
+        "id": 3,
+        "category": 32,
+        "title": "EXP Grinding",
+        "artist": "Stephen Long",
+        "description": "A Pok\u00e9mon trainer is training their Charmander on wild Caterpie in Veridian Forest.",
+        "tools": "Krita",
+        "pic": "pics/c32_160_3.gif"
+    },
+    {
+        "id": 4,
+        "category": 32,
+        "title": "Stroll through the BeanBean Fields",
+        "artist": "John Hart",
+        "description": "This picture is based on the game Mario and Luigi SuperStar Saga. I made the background myself and altered 8 bit sprites to create my own sprites in reference to the other games in the series. Mario and Luigi by Nintendo, hopefully no trouble for this.",
+        "tools": "Pixel Studio (Macbook App)",
+        "pic": "pics/c32_160_4.png"
+    },
+    {
+        "id": 5,
+        "category": 32,
+        "title": "Pipe of Bubbles",
+        "artist": "Cenobio Hanks",
+        "description": "A jolly roger smoking a pipe of bubbles  ",
+        "tools": "Krita ",
+        "pic": "pics/c32_160_5.gif"
+    },
+    {
+        "id": 6,
+        "category": 32,
+        "title": "Ultimate FANAF Pixel Mashup",
+        "artist": "Curtis VanBibber",
+        "description": "This pixel art features many of the most famous FNAF characters all revolving around the scene of the bite of 87. Credit: My art is based off characters from the FNAF series.",
+        "tools": "Pixelart",
+        "pic": "pics/c32_160_6.gif"
+    },
+    {
+        "id": 7,
+        "category": 32,
+        "title": "Scooby Doo",
+        "artist": "anonymous",
+        "description": "",
+        "tools": "Divoom on IOS and resize.com to resize",
+        "pic": "pics/c32_160_7.png"
+    },
+    {
+        "id": 1,
+        "category": 16,
+        "title": "Melted Rainbow",
+        "artist": "anonymous",
+        "description": "",
+        "tools": "I used Piskel",
+        "pic": "pics/c16_160_1.png"
+    },
+    {
+        "id": 2,
+        "category": 16,
+        "title": "beach sunset",
+        "artist": "anonymous",
+        "description": "This pixel art resembles a sunset over the ocean.",
+        "tools": "Dr Racket",
+        "pic": "pics/c16_160_2.png"
+    },
+    {
+        "id": 3,
+        "category": 16,
+        "title": "Red Sox Logo",
+        "artist": "Adam Barnette",
+        "description": "Pixel Art rendition of Boston Red Sox logo.",
+        "tools": "Divoom for art and ImaginaryCat for scaling",
+        "pic": "pics/c16_160_3.png"
+    },
+    {
+        "id": 4,
+        "category": 16,
+        "title": "Apple",
+        "artist": "anonymous",
+        "description": "",
+        "tools": "Pixelart.com",
+        "pic": "pics/c16_160_4.png"
+    }
+]
