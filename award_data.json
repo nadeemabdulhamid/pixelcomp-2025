@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "id": 3,
+        "category": "awards",
+	    "size": 32,
+        "award": "First Place (overall)",
+        "title": "EXP Grinding",
+        "artist": "Stephen Long",
+        "description": "A Pok\u00e9mon trainer is training their Charmander on wild Caterpie in Veridian Forest.",
+        "tools": "Krita",
+        "pic": "pics/c32_160_3.gif"
+    },
+
+    {
+        "id": 4,
+        "category": "awards",
+	    "size": 32,
+        "award": "Top Three",
+        "title": "Stroll through the BeanBean Fields",
+        "artist": "John Hart",
+        "description": "This picture is based on the game Mario and Luigi SuperStar Saga. I made the background myself and altered 8 bit sprites to create my own sprites in reference to the other games in the series. Mario and Luigi by Nintendo, hopefully no trouble for this.",
+        "tools": "Pixel Studio (Macbook App)",
+        "pic": "pics/c32_160_4.png"
+    },
+
+    {
+        "id": 1,
+        "category": "awards",
+	     "size": 32,
+        "award": "Top Three",
+        "title": "Mountain Skies",
+        "artist": "Gabby Ganues",
+        "description": "This art was inspired by a mountain landscape picture taken by Michael Gabriel, I really liked the sky in this picture, and I wanted to see what I could do with it.",
+        "tools": "I used PixieEditor to create my pixel art!",
+        "pic": "pics/c32_160_1.png"
+    },
+
+    {
+        "id": 2,
+        "category": "awards",
+	     "size": 16,
+        "award": "Top Three",
+        "title": "beach sunset",
+        "artist": "anonymous",
+        "description": "This pixel art resembles a sunset over the ocean.",
+        "tools": "Dr Racket",
+        "pic": "pics/c16_160_2.png"
+    }
+
+]
